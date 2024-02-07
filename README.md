@@ -36,14 +36,21 @@ on the project right click open git bash here
 
 
  in gitbash :
- 
- 
-git init  //initialise git // if u already have angular project then this copmment is not need
+  
+git init  //initialise git // if u already have angular project then this copmment is not need only for folder ..
+
+for empty files or folders we have to this command 
+and then u do git add and push ..
+
+..........................................................................................................
+in the  terminal add the change code commands:
 
 add some code
- 1st step : right click on ths project and open gitbachhere
+ 1st step : right click on ths project and open gitbachhere or terminal open in vs code
+
+ ... 1st step: git status // just for getting all changes git status you give 
  
- 2nd step:  git add . // adds the code to staging area//all code changes will showup with this command
+ 2nd step:  git add . // adds the code to staging area//all code changes will showup with this command  carefull after add give space and add dot in the command
 
  3rd step: git commit -m 'added changes' // commit staged changes to local repo
  
@@ -54,7 +61,7 @@ add some code
 
 git status // check git status
 
-
+..............................................................................................................
 in vscode:
 
 1step..open git
@@ -67,18 +74,37 @@ in vscode:
 
 5th step: click push 
 
-
+...................................................................................................................
 from git hub how to clone:
 
 1st step : open git hub and copy the url //under code under https url available  when u open project in github
 
 
-2nd step: git clone -b branchname url  //open git bash  and writhe this command//one folder will create after this command 
+2nd step: git clone -b branchname url  //open git bash  and writhe this command//one folder will create after that right click ointhe folder and open gitbash there type command. 
 
-step 3: git checkout branchname //for changing the branches
+step 3: git checkout branchname //for changing the branches only if u want to change the branch or skip it..
 
-
+step 4: below thing u do 
 how to open angular project;
-right click the folder andopen with vscode ..
+right click the folder and open with vscode ..
 
 or right click on the project open git bash her and there u type .. command: code . // so  u can open ur project
+
+.................................................................................................................................
+
+commands for ng .. in the terminal 
+
+ng g c componentname // generate component file
+
+ng g s servicename //generate service file
+
+ng serve // run the application
+
+ npm i // to add angular cli
+
+ node i  // node modules 
+
+
+....................................................................................................................
+
+  
